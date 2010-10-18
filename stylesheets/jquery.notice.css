@@ -42,6 +42,12 @@
   color: #000;
 }
 
+.notice-wrap .alert {
+  background-color: #FAA;
+  border-color: red;
+  color: #000;
+}
+
 .notice-wrap .warning{
   color: #000;  
   background-color: #FFA;

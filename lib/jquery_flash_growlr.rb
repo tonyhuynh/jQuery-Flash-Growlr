@@ -3,7 +3,7 @@ module JqueryFlashGrowlr
   def jquery_flash_growlr(options={})
     output = ""
     defaults = { :stay => true }.merge(options)
-    [:error, :warning, :info, :notice].each do |key|
+    [:error, :warning, :info, :notice, :alert].each do |key|
       if flash[key]
         output << display_flash_growlr(key, flash[key], defaults)
       end
